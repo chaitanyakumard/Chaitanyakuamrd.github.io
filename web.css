@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+
+    
+}
+
+.total-container {
+    background-color: #244D61;
+    height: 100%;
+
+}
+
+/*nav */
+header {
+    padding: 1.7rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: auto;
+    align-items: center;
+    color: #fff;
+}
+
+.logo {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #fff;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: .97rem;
+    font-weight: 600;
+    letter-spacing: .7px;
+    padding: 1rem;
+    padding: 0.4rem 1rem;
+}
+
+nav a.active,
+nav a:hover {
+    background-color: #1cd2d9;
+    color: #fff;
+    border-radius: 1rem;
+    transition: all.3s ease-in-out;
+}
+
+#click {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+.page {
+    display: none;
+  }
+  
+/* Nav */
+
+section {
+    margin: 2rem 8.5rem;
+    ;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+}
+
+.main h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #fff;
+    font-size: 50px;
+}
+
+.main p {
+    margin-top: 1rem;
+    font-size: .98rem;
+    color: #fff;
+    font-size: 20px;
+}
+
+.heading{
+    color: #fff;
+}
+
+.paragraph {
+    color: #fff;
+}
+
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+    margin-top: 1.7rem;
+}
+
+.social a {
+    color: #1cd2d9;
+    font-size: 1rem;
+    border:  solid 2px;
+    border-color:#1cd2d9;
+    border-radius: 50%;
+    padding: .35rem;
+    text-align: center;
+    width: 26px;
+}
+
+.social a:hover {
+    color: #fff;
+    background-color: #1cd2d9;
+    transition: all .3s ease-in-out;
+}
+
+.main h1 span:nth-child(1) {
+    font-size: 1.5rem;
+}
+
+
+@media only screen and (max-width:480px) {
+    .menu {
+        display: block;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: ##1cd2d9;
+    }
+
+    header {
+        padding: 0.7rem 1rem;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    nav {
+        position: absolute;
+        display: grid;
+        top: 75px;
+        width: calc(100% - 40px);
+        text-align: center;
+        background-color: #fff;
+        left: -100%;
+    }
+
+    #click:checked~nav {
+        left: 0%;
+        transition: all 0.3s ease;
+    }
+
+    section {
+        margin: 1rem 1.5rem;
+    }
+
+}
+
+
+.skills-description{
+    font-family: 'Playfair Display',serif;
+    font-size: 20px;
+    font-weight: 600px;
+    color: #fff;
+}
+
+
+
+.tuch-btn{
+    font-size: 83px;
+    font-size: 4.8823529411765rem;
+    font-weight: 800;
+    font-family: 'Playfair Display',serif;
+    line-height: 1.1em;
+    padding-bottom: 50px;padding-top: 80px;
+
+}
+
+.about-container{
+    height: 100vh;
+}
+
+.button{
+    color: #fff;
+    background-color: #244D61;
+}
+
+.copy-rights{
+        text-align: center;
+        color: var(--ast-global-color-3);
+        color: #fff;
+        padding-bottom: 20px;
+}
+
+.skill-image {
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+
+
+  

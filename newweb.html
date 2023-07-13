@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html >
+
+<head>
+    <link href="newweb.css" rel="stylesheet" type="css">
+    <link href="//https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+    <link rel="stylesheet" href="newweb.css">
+    </head>
+<body>   
+  <div class="wrapper">
+    <h1 class="skills-headding"> Parallax Flipping Cards</h1>
+    <div class="cols">
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(https://unsplash.it/500/500/)">
+              <div class="inner">
+                <p>Diligord</p>
+                <span>Lorem ipsum</span>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="url(https://unsplash.it/511/511/)">
+              <div class="inner">
+                <p>Rocogged</p>
+                <span>Lorem ipsum</span>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(https://unsplash.it/502/502/)">
+              <div class="inner">
+                <p>Strizzes</p>
+                <span>Lorem ipsum</span>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(https://unsplash.it/503/503/)">
+              <div class="inner">
+                <p>Clossyo</p>
+                <span>Lorem ipsum</span>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(https://unsplash.it/504/504/">
+              <div class="inner">
+                <p>Rendann</p>
+                <span>Lorem ipsum</span>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(https://unsplash.it/505/505/)">
+              <div class="inner">
+                <p>Reflupper</p>
+                <span>Lorem ipsum</span>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(https://unsplash.it/506/506/)">
+              <div class="inner">
+                <p>Acirassi</p>
+                <span>Lorem ipsum</span>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+          <div class="container">
+            <div class="front" style="background-image: url(https://unsplash.it/508/508/)">
+              <div class="inner">
+                <p>Sohanidd</p>
+                <span>Lorem ipsum</span>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+   </div>
+  
+
+    <!-- <script>
+       var items = document.querySelectorAll(".timeline li");
+
+function isElementInViewport(el) {
+  var rect = el.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
+}
+
+function callbackFunc() {
+  for (var i = 0; i < items.length; i++) {
+    if (isElementInViewport(items[i])) {
+      if(!items[i].classList.contains("in-view")){
+        items[i].classList.add("in-view");
+      }
+    } else if(items[i].classList.contains("in-view")) {
+        items[i].classList.remove("in-view");
+    }
+  }
+}
+ 
+window.addEventListener("load", callbackFunc);
+window.addEventListener("scroll", callbackFunc);
+
+    </script> -->
+</body>
+</html>

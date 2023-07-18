@@ -3,6 +3,11 @@
 /* Bouncing With Reflection Text Animation */
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 
+body {
+  width: 100%;
+}
+
+
 .navbar {
   overflow: hidden;
 }
@@ -123,6 +128,7 @@ background-color: #244D61;
       /* background-image: linear-gradient(to right, #090a0a, #389ba8); */
       padding: 50px;
       height: 100%;
+      padding-bottom: 100px;
     }
 
 
@@ -256,11 +262,11 @@ background-color: #244D61;
   }
 
   .name {
-    font-size: 32px;
+    font-size: 22px;
   }
 
   .my-bio {
-    font-size: 18px;
+    font-size: 15px;
     padding-top: 16px;
   }
 
@@ -270,7 +276,7 @@ background-color: #244D61;
   }
 
   .waviy {
-    font-size: 32px;
+    font-size: 30px;
   }
 }
 
@@ -279,11 +285,6 @@ background-color: #244D61;
 
 /* Timeline Animation Snippet */
 
-
-/* 
-$primary-color: #fff;
-$background-color: linear-gradient(54deg, #9164ff, #8bfff4);
-$text-color: #3c3f64; */
 
 *,
 *::before,
@@ -409,12 +410,10 @@ $text-color: #3c3f64; */
 }
 
 @media screen and (max-width: 600px) {
-  body {
-    background: #8bfff4;
-  }
+ 
   
   .timeline ul li {
-    margin-left: 20px;
+    margin-left: 0px;
   }
   
   .timeline ul li div {
@@ -422,14 +421,20 @@ $text-color: #3c3f64; */
   }
   
   .timeline ul li:nth-of-type(even) > div {
-    left: 45px;
+    left: 20px;
   }
+
+  
+.timeline ul li:nth-of-type(odd) > div {
+  left: 20px;
+}
+
 }
 
 
 
 
-
+/* Skills container CSS */
 
 /* PARALLAX FLIPPING CARDS */
 

@@ -636,6 +636,85 @@ background-color: #244D61;
 }
 
 
+/* Projects-container CSS */
+
+
+.projects-container {
+  background-image: linear-gradient(to right, #090a0a, #389ba8);
+}
+
+.projects-list {
+  height: 280px;
+}
+
+.projects-list-container {
+  padding-bottom: 50px;
+  font-size: 35px;
+}
+
+.project-heading {
+  font-size: 23px;
+  font-family: "Bree serif";
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-decoration: underline;
+  color: #1cd2d9;
+  padding-bottom: 15px;
+}
+
+.tech-paragraph {
+  font-weight: bold;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Responsive styles */
+
+@media screen and (max-width: 768px) {
+  .projects-list {
+    height: 300px;
+  }
+
+  .projects-list-container {
+    padding-bottom: 30px;
+    font-size: 28px;
+  }
+
+  .project-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+
+  .tech-paragraph {
+    font-size: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .projects-list-container {
+    font-size: 22px;
+  }
+  .projects-list {
+    height: 420px;
+  }
+
+  .project-heading {
+    font-size: 18px;
+    padding-bottom: 8px;
+  }
+
+  .tech-paragraph {
+    font-size: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+}
+
+
 
 /* certificates-container css */
 
@@ -709,40 +788,48 @@ background-color: #244D61;
 }
 
 
-/* Projects-container CSS */
+@media screen and (max-width: 768px) {
+  .certificates-total-container {
+    padding: 5%;
+  }
+  .certificates-container {
+    margin-top: 30px;
+    height: auto;
+    padding: 20px;
+  }
 
 
-.projects-container {
-  background-image: linear-gradient(to right, #090a0a, #389ba8);
+  .certificate-total-heading {
+    font-size: 30px;
+    padding-bottom: 15px;
+  }
 
+  .certificate-heading {
+    font-size: 25px;
+    padding-bottom: 15px;
+  }
+
+  .certification-image {
+    margin-bottom: 10px;
+  }
+
+  .view-certificate {
+    font-size: 25px;
+  }
+
+  .row-container,
+  .row-container2 {
+    width: 100%;
+    margin-right: 0;
+  }
 }
 
-.projects-list {
-  height: 280px;
-}
 
-.projects-list-container {
-  padding-bottom: 50px;
-  font-size: 35px;
 
-}
 
-.project-heading {
-  font-size: 23px;
-  font-family: "Bree serif";
-  font-weight: bold;
-  margin-bottom: 15px;
-  text-decoration: underline;
-  color: #1cd2d9;
-  padding-bottom: 15px;
-}
 
-.tech-paragraph {
-  font-weight: bold;
-  font-size: 16px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
+
+
 
 /* .contact-container CSS */
 
@@ -774,4 +861,22 @@ background-color: #244D61;
   padding-bottom: 20px;
 }
 
-P
+
+
+@media screen and (max-width: 576px) {
+  .contact-container {
+    height: auto;
+    padding: 20px;
+  }
+
+  .gamil,
+  .phone {
+    font-size: 20px;
+    padding: 3px;
+  }
+
+  .touch-btn {
+    font-size: 30px;
+    padding-bottom: 5px;
+  }
+}

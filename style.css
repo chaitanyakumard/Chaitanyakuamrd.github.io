@@ -683,6 +683,11 @@ background-color: #244D61;
 /* Responsive styles */
 
 @media screen and (max-width: 768px) {
+  .projects-container {
+    min-height: 100vh;
+  }
+
+
   .projects-list-container {
     height: 300px;
     margin: 8px;
@@ -904,6 +909,26 @@ background-color: #244D61;
 
 
 
+@media screen and (max-width: 768px) {
+  .contact-container {
+    height: 100%;
+    padding: 20px;
+  }
+
+  .gamil,
+  .phone {
+    font-size: 20px;
+    padding: 3px;
+  }
+
+  .touch-btn {
+    font-size: 30px;
+    padding-bottom: 5px;
+  }
+}
+
+
+
 @media screen and (max-width: 576px) {
   .contact-container {
     height: auto;
@@ -917,7 +942,7 @@ background-color: #244D61;
   }
 
   .touch-btn {
-    font-size: 30px;
+    font-size: 20px;
     padding-bottom: 5px;
   }
 }

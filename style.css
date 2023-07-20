@@ -639,6 +639,11 @@ background-color: #244D61;
 
 /* Projects-container CSS */
 
+.projects-container {
+  background-image: linear-gradient(to right, #090a0a, #389ba8);
+  padding: 50px;
+  height: 100rem;
+}
 
 .projects-list-container {
   border-radius: 10px;
@@ -648,11 +653,6 @@ background-color: #244D61;
   margin: 8%;
 }
 
-.projects-container {
-  background-image: linear-gradient(to right, #090a0a, #389ba8);
-  padding: 50px;
-  height: 100%;
-}
 
 .projects-list {
   padding: 30px;
@@ -684,7 +684,7 @@ background-color: #244D61;
 
 @media screen and (max-width: 768px) {
   .projects-container {
-    min-height: 100vh;
+    /* min-height: 100vh; */
   }
 
 

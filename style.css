@@ -7,7 +7,7 @@ body {
   width: 100%;
 }
 
-
+ 
 .navbar {
   overflow: hidden;
 }
@@ -640,23 +640,27 @@ background-color: #244D61;
 /* Projects-container CSS */
 
 
-.projects-container {
-  background-image: linear-gradient(to right, #090a0a, #389ba8);
-  padding: 50px;
-  height: 100rem;
-  /* padding-bottom: 100px; */
-}
-
-.projects-list {
+.projects-list-container {
   border-radius: 10px;
   box-sizing: border-box;
   box-shadow: 0px 0px 12px 5px #22AF8D;
-  height: 280px;
+  height: 300px;
+  margin: 8%;
 }
 
-.projects-list-container {
+.projects-container {
+  background-image: linear-gradient(to right, #090a0a, #389ba8);
+  padding: 50px;
+  height: 100%;
+}
+
+.projects-list {
+  padding: 30px;
+}
+
+.projects-list-container-headding {
   padding-bottom: 50px;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .project-heading {
@@ -679,14 +683,17 @@ background-color: #244D61;
 /* Responsive styles */
 
 @media screen and (max-width: 768px) {
-  .projects-list {
+  .projects-list-container {
     height: 300px;
+    margin: 8px;
+    
   }
 
-  .projects-list-container {
+  .projects-list {
     padding-bottom: 30px;
     font-size: 28px;
   }
+
 
   .project-heading {
     font-size: 20px;
@@ -694,31 +701,58 @@ background-color: #244D61;
     padding-bottom: 10px;
   }
 
-  .tech-paragraph {
-    font-size: 14px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .projects-list-container {
-    font-size: 22px;
-  }
-  .projects-list {
-    height: 420px;
-  }
-
-  .project-heading {
-    font-size: 18px;
-    padding-bottom: 8px;
+  .projects-discription {
+    font-size: 12px;
+    color: #fff;
+    font-family: "bootstrap-icons";
   }
 
   .tech-paragraph {
     font-size: 12px;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    padding-top: 8px;
   }
+
+  
+  .projects-url {
+    font-size: 12px;
+    font-family: "bootstrap-icons";
+    color: #fff;
+  }
+
+
+}
+
+@media screen and (max-width: 576px) {
+  .projects-list-container {
+    font-size: 300px;
+    margin: 5px;
+    margin-bottom: 6px;
+  }
+  .projects-list {
+    padding: 15px;
+  }
+
+  .project-heading {
+    font-size: 12px;
+    padding-bottom: 8px;
+  }
+  .projects-discription {
+    font-size: 10px;
+    color: #fff;
+    font-family: "bootstrap-icons";
+  }
+
+  .tech-paragraph {
+    font-size: 8px;
+  }
+
+  .projects-url {
+    font-size: 10px;
+    font-family: "bootstrap-icons";
+    color: #fff;
+  }
+
+
 }
 
 

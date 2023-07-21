@@ -676,7 +676,8 @@ background-color: #244D61;
 }
 
 .projects-list-container-headding {
-  padding-top: 50px;
+  padding-top: 10%;
+  /* padding-bottom: 8%; */
   padding-left: 8%;
   font-size: 30px;
 }
@@ -713,6 +714,11 @@ background-color: #244D61;
   .projects-container {
     min-height: 100%;
     padding-top: 30%;
+  }
+
+  .projects-list-container-headding {
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
 
 

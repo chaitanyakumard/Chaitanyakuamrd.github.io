@@ -298,7 +298,7 @@ background-color: #244D61;
   /* background-image: linear-gradient(to right, #090a0a, #389ba8); */
   color: #3c3f64;
   overflow-x: hidden;
-  padding: 30px;
+  padding-top: 50%;
   padding-bottom: 200px;
   min-height: 100vh;
 }
@@ -442,7 +442,7 @@ background-color: #244D61;
 
 .wrapper{
   margin: 0;
-  padding: 0;
+  padding-top: 30%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 90%;
@@ -636,7 +636,7 @@ background-color: #244D61;
   color:#1cd2d9;
   text-align: center;
   /* margin: 2rem 0; */
-  margin-top: 30%;
+  /* margin-top: 30%; */
   margin-bottom: 8%;
 }
 
@@ -660,10 +660,7 @@ background-color: #244D61;
   background-image: linear-gradient(to right, #090a0a, #389ba8);
   padding: 50px;
   min-height: 100vh;
-  display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+  
 }
 
 .projects-list-container {
@@ -954,7 +951,7 @@ background-color: #244D61;
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 568px) {
   .contact-container {
     height: 100%;
     padding: 20px;

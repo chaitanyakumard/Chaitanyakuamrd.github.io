@@ -717,47 +717,46 @@ background-color: #244D61;
 @media screen and (max-width: 768px) {
   .projects-container {
     min-height: 100%;
-    padding-top: 30%;
+    padding-top: 50%;
   }
 
   .projects-list-container-headding {
     padding-top: 5%;
-    padding-bottom: 5%;
   }
 
 
   .projects-list-container {
-    height: 300px;
+    height: 400px;
     margin: 8px;
+    margin-top: 20%;
     
   }
 
   .projects-list {
-    padding-bottom: 30px;
-    font-size: 28px;
+    padding-bottom: 8%;
   }
 
 
   .project-heading {
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 10px;
     padding-bottom: 10px;
   }
 
   .projects-discription {
-    font-size: 12px;
+    font-size: 18px;
     color: #fff;
     font-family: "bootstrap-icons";
   }
 
   .tech-paragraph {
-    font-size: 12px;
+    font-size: 15px;
     padding-top: 8px;
   }
 
   
   .projects-url {
-    font-size: 12px;
+    font-size: 15px;
     font-family: "bootstrap-icons";
     color: #fff;
   }
@@ -980,7 +979,7 @@ background-color: #244D61;
 @media screen and (max-width: 768px) {
   .contact-container {
     height: auto;
-    padding: 20px;
+    padding: 50px;
   }
 
   .gamil,

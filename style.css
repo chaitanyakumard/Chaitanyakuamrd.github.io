@@ -660,6 +660,10 @@ background-color: #244D61;
   background-image: linear-gradient(to right, #090a0a, #389ba8);
   padding: 50px;
   min-height: 100vh;
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .projects-list-container {

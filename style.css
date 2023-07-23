@@ -410,6 +410,9 @@ background-color: #244D61;
 
 @media screen and (max-width: 600px) {
  
+  .about-container {
+    padding-left: 40px;
+  }
   
   .timeline ul li {
     margin-left: 0px;
@@ -797,10 +800,30 @@ background-color: #244D61;
   .projects-list-container {
     box-sizing: border-box;
     box-shadow: 0px 0px 12px 5px #22AF8D;
+    border-radius: 10px;
     height: 300px;
     margin: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+  }
 
+  
+  .projects-list-container2 {
+    box-sizing: border-box;
+    box-shadow: 0px 0px 12px 5px #22AF8D;
+    border-radius: 10px;
+    height: 300px;
+    margin: 5px;
+    margin-bottom: 50px;
+  }
+
+  
+  .projects-list-container3 {
+    box-sizing: border-box;
+    box-shadow: 0px 0px 12px 5px #22AF8D;
+    border-radius: 10px;
+    height: 300px;
+    margin: 5px;
+    margin-bottom: 50px;
   }
   .projects-list {
     padding: 15px;
@@ -913,7 +936,7 @@ background-color: #244D61;
 
 @media screen and (max-width: 568px) {
   .certificates-total-container {
-    padding: 5%;
+    padding: 8%;
   }
   .certificates-container {
     margin-top: 30px;

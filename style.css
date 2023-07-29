@@ -681,6 +681,22 @@ background-color: #244D61;
   margin: 8%;
 }
 
+.projects-list-container2 {
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 12px 5px #22AF8D;
+  height: 300px;
+  margin: 8%;
+}
+
+.projects-list-container3 {
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 12px 5px #22AF8D;
+  height: 300px;
+  margin: 8%;
+}
+
 
 .projects-list {
   padding: 30px;
@@ -688,7 +704,6 @@ background-color: #244D61;
 
 .projects-list-container-headding {
   padding-top: 10%;
-  /* padding-bottom: 8%; */
   padding-left: 8%;
   font-size: 30px;
 }

@@ -223,9 +223,24 @@ background-color: #244D61;
   }
 }
 
+/* 
+.images {
+  height: 60vh;
+  width: 40vw;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, #090a0a, #389ba8);
+} */
+
+.myimage {
+  height: 65vh;
+  width: 38vw;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
 /* Responsive styles */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   /* Adjust font sizes and paddings for smaller screens */
   .name-head {
     font-size: 30px;
@@ -249,6 +264,14 @@ background-color: #244D61;
   .waviy {
     font-size: 40px;
   }
+
+  
+.myimage {
+  height: 45vh;
+  width: 40vw;
+  border-radius: 50%;
+  margin-right: 30px;
+}
 }
 
 @media screen and (max-width: 576px) {
@@ -276,6 +299,13 @@ background-color: #244D61;
   .waviy {
     font-size: 30px;
   }
+  
+.myimage {
+  height: 50vh;
+  width: 88vw;
+  border-radius: 50%;
+  margin-right: 30px;
+}
 }
 
 

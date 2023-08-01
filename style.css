@@ -232,15 +232,16 @@ background-color: #244D61;
 } */
 
 .myimage {
-  height: 65vh;
-  width: 38vw;
-  border-radius: 50%;
-  margin-right: 30px;
+    margin-top: 50px;
+    height: 60vh;
+    width: 35vw;
+    border-radius: 50%;
+    margin-right: 30px;
 }
 
 /* Responsive styles */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   /* Adjust font sizes and paddings for smaller screens */
   .name-head {
     font-size: 30px;
@@ -301,8 +302,8 @@ background-color: #244D61;
   }
   
 .myimage {
-  height: 50vh;
-  width: 88vw;
+  height: 30vh;
+  width: 50vw;
   border-radius: 50%;
   margin-right: 30px;
 }

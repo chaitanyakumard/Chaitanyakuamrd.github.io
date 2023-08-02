@@ -232,16 +232,15 @@ background-color: #244D61;
 } */
 
 .myimage {
-    margin-top: 50px;
     height: 60vh;
-    width: 35vw;
+    width: 40vw;
     border-radius: 50%;
     margin-right: 30px;
 }
 
 /* Responsive styles */
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
   /* Adjust font sizes and paddings for smaller screens */
   .name-head {
     font-size: 30px;
